@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-import {
-  BrowserRouter as Router,
-  Link
-} from "react-router-dom";
-
+import { NavLink} from "react-router-dom";
 import './Nav.css';
+
 function Nav() {
   const [isActive, setActive] = useState(false);
 
@@ -31,17 +28,17 @@ function Nav() {
   }
 
   return (
+   
     <nav id="navbar">
       <div className="logo">
-        <h4><a href="" >San Jorge 33</a></h4>
+        <h4><NavLink to="../Pages/Home/Home">San Jorge 33</NavLink></h4>
       </div>
       <ul className={isActive ? "nav-links dropdown nav-active" : "nav-links dropdown"}>
-        
-        <li><a href="">Home</a></li>
-        <li><a href="">¿Quienes somos?</a></li>
-        <li><a href="">Secciones</a></li>
-        <li><a href="">Mundo Scout</a></li>
-        <li><a href="">Apúntate</a></li>
+        <li><NavLink  to="../Pages/Home/Home">Home</NavLink></li>
+        <li><NavLink to="../Pages/About/About">¿Quienes somos?</NavLink></li>
+        <li><NavLink to="../Pages/Sections/Sections">Secciones</NavLink></li>
+        <li><NavLink to="../Pages/World_Scout/World_Scout">Mundo Scout</NavLink></li>
+        <li><NavLink to="../Pages/JoinUs/JoinUs">Apúntate</NavLink></li>
       </ul>
 
       <div onClick={showMenu} className={isActive ? "burger toggle" : "burger"}>

@@ -8,7 +8,7 @@ nav{
     background-color: #5d4954;
     font-family: 'Poppins', sans-serif;
   }
-  
+
   .logo{
     color: rgb(226, 226, 226);
     text-transform: uppercase;
@@ -24,6 +24,8 @@ nav{
     transition: background-size .3s;
   }
 
+
+  
   .logo h4 a{
     color: rgb(226, 226, 226);
     text-decoration: none;

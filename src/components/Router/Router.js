@@ -1,39 +1,33 @@
 import React from "react";
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
-  Link
+  Routes,
 } from "react-router-dom";
-import About from './components/Pages/About/About'; 
-import Home from './components/Pages/Home/Home' ;
-import Sections from './components/Pages/Sections/Sections';
-import World from './components/Pages/World_Scout/World_Scout' ;
-import JoinUs from './components/Pages/JoinUs/JoinUs' ;
+import Nav from "../Navbar/Nav";
+import Home from "../Pages/Home/Home";
+import About from "../Pages/About/About";
+import Sections from "../Pages/Sections/Sections";
+import World_Scout from "../Pages/World_Scout/World_Scout";
+import JoinUs from "../Pages/JoinUs/JoinUs";
+
 
 export default function router() {
   return (
     <Router>
-      <div>
-      
-        <Switch>
-          <Route path="./components/Pages/Home/Home">
-            <Home/>
+      <Nav/>
+        <Routes>
+          <Route path="../Pages/Home/Home" element={<Home/>}>
           </Route>
-          <Route path="./components/Pages/About/About">
-            <About/>
+          <Route path="../Pages/About/About" element={<About/>}>
           </Route>
-          <Route path="./components/Pages/Sections/Sections">
-            <Sections/>
+          <Route path="../Pages/Sections/Sections" element={<Sections/>}>
           </Route>
-          <Route path="./components/Pages/World_Scout/World_Scout">
-            <World/>
+          <Route path="../Pages/World_Scout/World_Scout" element={<World_Scout/>}>
           </Route>
-          <Route path="./components/Pages/JoinUs/JoinUs">
-            <JoinUs/>
+          <Route path="../Pages/JoinUs/JoinUs" element={<JoinUs/>}>
           </Route>
-        </Switch>
-      </div>
+        </Routes>
     </Router>
   );
 }
