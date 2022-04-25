@@ -31,14 +31,14 @@ function Nav() {
    
     <nav id="navbar">
       <div className="logo">
-        <h4><NavLink to="../Pages/Home/Home">San Jorge 33</NavLink></h4>
+        <h4><NavLink to="/home">San Jorge 33</NavLink></h4>
       </div>
       <ul className={isActive ? "nav-links dropdown nav-active" : "nav-links dropdown"}>
-        <li><NavLink  to="../Pages/Home/Home">Home</NavLink></li>
-        <li><NavLink to="../Pages/About/About">¿Quienes somos?</NavLink></li>
-        <li><NavLink to="../Pages/Sections/Sections">Secciones</NavLink></li>
-        <li><NavLink to="../Pages/World_Scout/World_Scout">Mundo Scout</NavLink></li>
-        <li><NavLink to="../Pages/JoinUs/JoinUs">Apúntate</NavLink></li>
+        <li><NavLink  to="/home">Home</NavLink></li>
+        <li><NavLink to="/about">¿Quienes somos?</NavLink></li>
+        <li><NavLink to="/sections">Secciones</NavLink></li>
+        <li><NavLink to="/world_Scout">Mundo Scout</NavLink></li>
+        <li><NavLink to="/joinUs">Apúntate</NavLink></li>
       </ul>
 
       <div onClick={showMenu} className={isActive ? "burger toggle" : "burger"}>

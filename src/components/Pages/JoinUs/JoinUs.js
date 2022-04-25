@@ -1,7 +1,7 @@
 import React from 'react';
 import './JoinUs.css';
 
-function Footer() {
+function JoinUs() {
   return (
     <div>
       <h1>JoinUs</h1>
@@ -9,4 +9,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default JoinUs;

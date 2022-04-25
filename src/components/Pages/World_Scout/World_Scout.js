@@ -1,7 +1,7 @@
 import React from 'react';
 import './World_Scout.css';
 
-function Footer() {
+function World_Scout() {
   return (
     <div>
       <h1>World_Scout</h1>
@@ -9,4 +9,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default World_Scout;

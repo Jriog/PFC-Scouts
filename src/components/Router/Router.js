@@ -17,15 +17,15 @@ export default function router() {
     <Router>
       <Nav/>
         <Routes>
-          <Route path="../Pages/Home/Home" element={<Home/>}>
+          <Route path="/home" element={<Home/>}>
           </Route>
-          <Route path="../Pages/About/About" element={<About/>}>
+          <Route path="/about" element={<About/>}>
           </Route>
-          <Route path="../Pages/Sections/Sections" element={<Sections/>}>
+          <Route path="/sections" element={<Sections/>}>
           </Route>
-          <Route path="../Pages/World_Scout/World_Scout" element={<World_Scout/>}>
+          <Route path="/world_Scout" element={<World_Scout/>}>
           </Route>
-          <Route path="../Pages/JoinUs/JoinUs" element={<JoinUs/>}>
+          <Route path="/joinUs" element={<JoinUs/>}>
           </Route>
         </Routes>
     </Router>

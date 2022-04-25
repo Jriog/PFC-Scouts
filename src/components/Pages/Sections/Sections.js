@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sections.css';
 
-function Footer() {
+function Sections() {
   return (
     <div>
       <h1>Sections</h1>
@@ -9,4 +9,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Sections;
