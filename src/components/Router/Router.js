@@ -17,7 +17,7 @@ export default function router() {
     <Router>
       <Nav/>
         <Routes>
-          <Route path="/home" element={<Home/>}>
+          <Route path="/" element={<Home/>}>
           </Route>
           <Route path="/about" element={<About/>}>
           </Route>

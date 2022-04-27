@@ -1,10 +1,22 @@
 import React from 'react';
 import './Home.css';
+import VideoSection from '../../VideoSection/VideoSection';
+import Sections from '../Sections/Sections';
 
-function Footer() {
+function Home() {
   return (
-      <h1>Home</h1>
+    <div>
+      <VideoSection/>
+      <VideoSection/>
+      <VideoSection/>
+      <VideoSection/>
+      <VideoSection/>
+      <VideoSection/>
+      <VideoSection/>
+      <VideoSection/>
+      
+    </div>
   );
 }
 
-export default Footer;
+export default Home;

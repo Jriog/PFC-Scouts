@@ -6,12 +6,8 @@ import Footer from "./components/Footer/Footer"
 function App() {
   return (
     <div>
-      <div>
-        <Router/>
-      </div>
-      <div>
+      <Router/>
       <Footer/>   
-      </div>
     </div>
   );
 }

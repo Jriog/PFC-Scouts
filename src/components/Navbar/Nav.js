@@ -31,10 +31,10 @@ function Nav() {
    
     <nav id="navbar">
       <div className="logo">
-        <h4><NavLink to="/home">San Jorge 33</NavLink></h4>
+        <h4><NavLink to="/">San Jorge 33</NavLink></h4>
       </div>
       <ul className={isActive ? "nav-links dropdown nav-active" : "nav-links dropdown"}>
-        <li><NavLink  to="/home">Home</NavLink></li>
+        <li><NavLink  to="/">Home</NavLink></li>
         <li><NavLink to="/about">¿Quienes somos?</NavLink></li>
         <li><NavLink to="/sections">Secciones</NavLink></li>
         <li><NavLink to="/world_Scout">Mundo Scout</NavLink></li>
