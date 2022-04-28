@@ -5,7 +5,7 @@ import Sections from '../Sections/Sections';
 
 function Home() {
   return (
-    <div>
+    <div id='home'>
       <VideoSection/>
       <VideoSection/>
       <VideoSection/>
