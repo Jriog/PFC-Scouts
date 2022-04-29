@@ -34,17 +34,22 @@ function Nav() {
         <h4><NavLink to="/">San Jorge 33</NavLink></h4>
       </div>
       <ul className={isActive ? "nav-links dropdown nav-active" : "nav-links dropdown"}>
-        <li><NavLink  to="/">Home</NavLink></li>
         <li><NavLink to="/about">¿Quienes somos?</NavLink></li>
         <li><NavLink to="/sections">Secciones</NavLink></li>
         <li><NavLink to="/world_Scout">Mundo Scout</NavLink></li>
         <li><NavLink to="/joinUs">Apúntate</NavLink></li>
+        <li><NavLink to="/tienda">Tienda</NavLink></li>
       </ul>
 
       <div onClick={showMenu} className={isActive ? "burger toggle" : "burger"}>
-        <div className="line1"></div>
-        <div className="line2"></div>
-        <div className="line3"></div>
+        <ul className={isActive ? "nav-links dropdown nav-active" : "nav-links dropdown"}>
+          <li><NavLink  to="/">Home</NavLink></li>
+          <li><NavLink to="/about">¿Quienes somos?</NavLink></li>
+          <li><NavLink to="/sections">Secciones</NavLink></li>
+          <li><NavLink to="/world_Scout">Mundo Scout</NavLink></li>
+          <li><NavLink to="/joinUs">Apúntate</NavLink></li>
+          <li><NavLink to="/tienda">Tienda</NavLink></li>
+        </ul>
       </div>
     </nav>
   );

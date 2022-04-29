@@ -1,20 +1,15 @@
 import React from 'react';
 import './Home.css';
-import VideoSection from '../../VideoSection/VideoSection';
-import Sections from '../Sections/Sections';
+import VideoSection from './Partes/VideoSection/VideoSection';
+import Pilares from './Partes/Pilares/Pilares';
+import Descripcion from './Partes/Descripcion/Descripcion';
 
 function Home() {
   return (
     <div id='home'>
       <VideoSection/>
-      <VideoSection/>
-      <VideoSection/>
-      <VideoSection/>
-      <VideoSection/>
-      <VideoSection/>
-      <VideoSection/>
-      <VideoSection/>
-      
+      <Descripcion/>
+      <Pilares/>
     </div>
   );
 }
