@@ -1,16 +1,10 @@
-.Pilares{
-    width: 100%;
-    height:100%;
-    background-color: rgb(136, 136, 255);
-    text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#pilares{
+    background-color: tomato;
 }
-.pilar{
-    width: 15%;
-    height: 400px;
-    margin-top: 2%;
-    margin-right: 6%;
-    margin-left: 6%;
-    margin-bottom: 3%;
-    display: inline-block;
-    background-color: red;
+#pilares div{
+    text-align: center;
 }

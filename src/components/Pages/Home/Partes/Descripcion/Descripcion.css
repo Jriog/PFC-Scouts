@@ -1,26 +1,15 @@
-.descripcion{
-    width: 100%;
-    height:100%;
+#descripcion{
+
     background-color: rgb(174, 255, 136);
-    text-align: center;
-    
 }
 
-.texto{ 
-position: relative;
-    width: 30%;
-    height: 400px;
-    margin-top: 10%;
-    left: 10%;
+#descripcion div{
+
     text-align: center;
-    background-color: red;
 }
 
-.logodiv{
-    width: 10%;
-    position: relative;
-    bottom: 90%;
-    left: 80%;
+.texto{
+    background-color: bisque;
 }
 .img{
     border-radius: 120px;
