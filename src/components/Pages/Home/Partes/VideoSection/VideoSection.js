@@ -1,6 +1,5 @@
 import React from 'react';
 import rain from './rain.mp4';
-import memoria from './memoria17_18.mp4';
 import './VideoSection.css';
 
 function Video() {
