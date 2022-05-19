@@ -1,0 +1,22 @@
+#descripcion{
+    height:1000px;
+    background-color: rgb(174, 255, 136);
+}
+
+.texto{
+    margin: 5%;
+    padding: 10%;
+    text-align: justify;
+    width:700px;
+    background-color: bisque;
+}
+.img1{
+    border-radius: 120px;
+}
+.logodiv2{
+    margin: 5%;
+    padding: 10%;
+    text-align: center;
+    width:300px;
+    background-color: transparent;
+}

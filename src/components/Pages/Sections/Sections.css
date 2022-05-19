@@ -1,0 +1,32 @@
+#manada{
+    padding-top: 5%;
+    background-color: yellow;
+    height: fit-content;
+}
+
+#tropa{
+    background-color: green;
+    height: fit-content;
+}
+
+#esculta{
+    background-color: brown;
+    height: fit-content;
+}
+
+#clan{
+    background-color: red;
+    height: fit-content;
+}
+
+#scouter{
+    background-color: rgb(136, 192, 241);
+    height: fit-content;
+}
+
+.textosections{
+    text-align: justify;
+    border-radius: 5%;
+    margin: 10%;
+    padding: 5%;
+}

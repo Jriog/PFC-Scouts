@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 #redes{
+    height:1000px;
     background-color: blueviolet;
 }
 

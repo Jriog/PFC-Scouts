@@ -1,16 +1,26 @@
 #descripcion{
-
+    height:1000px;
     background-color: rgb(174, 255, 136);
 }
 
-#descripcion div{
-
-    text-align: center;
-}
-
 .texto{
+    margin: 5%;
+    padding: 10%;
+    text-align: justify;
+    width:700px;
+    height: 400px;
     background-color: bisque;
+    border: 1px solid black;
+    border-radius: 0px 50px 0px 50px;
 }
 .img{
-    border-radius: 120px;
+    border-radius: 100%;
+    width: 600px;
+}
+.logodiv{
+    margin: 5%;
+    padding-top: 5%;
+    text-align: center;
+    width:400px;
+    background-color: transparent;
 }

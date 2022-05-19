@@ -8,7 +8,7 @@ function Nav() {
   const showMenu = () => {
     setActive(!isActive);
 
-    /* Aquí es lo que no me funciona
+    /* TODO
 
     Debería hacer una animación para que cuando se clicke la burguer y se despliegue el menu aparezcan poco a poco los li del menu
     En JS Vanilla es ell siguiente código:

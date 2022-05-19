@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 #pilares{
+    height:1000px;
     background-color: tomato;
 }
-#pilares div{
+.pilar{
     text-align: center;
+    width: 500px;
 }
