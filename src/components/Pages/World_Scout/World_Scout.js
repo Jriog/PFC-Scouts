@@ -4,7 +4,12 @@ import './World_Scout.css';
 function World_Scout() {
   return (
     <div>
-      <h1>World_Scout</h1>
+      <div id='W_S'>
+      </div>
+      <div>
+        <h1>hola mundo World_Scout</h1>
+      </div>
+      <div></div>
     </div>
   );
 }

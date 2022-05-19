@@ -1,12 +1,6 @@
   .footer{
-    background-color: black;
     position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    color: white;
-    margin: 0%;
-    padding: 0%;
+    top: 100%;
   }
   .referencia{
     text-align: center;

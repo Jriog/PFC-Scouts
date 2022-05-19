@@ -1,0 +1,10 @@
+#W_S{
+    height: 75px;
+}  
+
+@media screen and (width<1000px) {
+    #W_S{
+        height: 0px;
+    }  
+    
+  }
