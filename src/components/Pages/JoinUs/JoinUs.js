@@ -3,7 +3,7 @@ import './JoinUs.css';
 
 function JoinUs() {
   return (
-    <div>
+    <div className='scrollmenu'>
         <form id='' className='form'>
             <div class="relative z-0 w-full mb-6 group grid grid-cols-2 gap-6">
               <div id='name'>

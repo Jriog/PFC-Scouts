@@ -10,7 +10,7 @@ import About from "../Pages/About/About";
 import Sections from "../Pages/Sections/Sections";
 import World_Scout from "../Pages/World_Scout/World_Scout";
 import JoinUs from "../Pages/JoinUs/JoinUs";
-import Tienda from "../Pages/Tienda/Tienda";
+import Store from "../Pages/Store/Store";
 
 export default function router() {
   return (
@@ -27,7 +27,7 @@ export default function router() {
           </Route>
           <Route path="/joinUs" element={<JoinUs/>}>
           </Route>
-          <Route path="/tienda" element={<Tienda/>}>
+          <Route path="/Store" element={<Store/>}>
           </Route>
         </Routes>
     </Router>

@@ -38,7 +38,7 @@ function Nav() {
         <li><NavLink to="/sections">Secciones</NavLink></li>
         <li><NavLink to="/world_Scout">Mundo Scout</NavLink></li>
         <li><NavLink to="/joinUs">Apúntate</NavLink></li>
-        <li><NavLink to="/tienda">Tienda</NavLink></li>
+        <li><NavLink to="/Store">Tienda</NavLink></li>
       </ul>
 
       <div onClick={showMenu} className={isActive ? "burger toggle" : "burger"}>
@@ -48,7 +48,7 @@ function Nav() {
           <li><NavLink to="/sections">Secciones</NavLink></li>
           <li><NavLink to="/world_Scout">Mundo Scout</NavLink></li>
           <li><NavLink to="/joinUs">Apúntate</NavLink></li>
-          <li><NavLink to="/tienda">Tienda</NavLink></li>
+          <li><NavLink to="/Store">Tienda</NavLink></li>
         </ul>
       </div>
     </nav>
