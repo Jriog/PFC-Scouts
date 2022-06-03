@@ -5,13 +5,13 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5d4954;
+    color: black;
     font-family: 'Poppins', sans-serif;
     z-index: 100;
+    background: linear-gradient(178deg, rgba(0,138,255,1) 10%, rgba(255,255,255,1) 60%);
   }
 
   .logo{
-    color: rgb(226, 226, 226);
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
@@ -28,7 +28,6 @@ nav{
 
   
   .logo h4 a{
-    color: rgb(226, 226, 226);
     text-decoration: none;
     font-weight: bold;
   }
@@ -57,7 +56,6 @@ nav{
   }
   
   .nav-links a{
-    color: rgb(226, 226, 226);
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;

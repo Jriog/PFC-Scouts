@@ -12,6 +12,7 @@ function Nav() {
 
     Debería hacer una animación para que cuando se clicke la burguer y se despliegue el menu aparezcan poco a poco los li del menu
     En JS Vanilla es ell siguiente código:
+    */
 
     const navLinks = document.querySelectorAll('.nav-links li')
 
@@ -24,7 +25,7 @@ function Nav() {
       })
 
     
-    */
+
   }
 
   return (

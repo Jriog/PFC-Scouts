@@ -1,12 +1,38 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 #pilares{
     height:1000px;
-    background-color: tomato;
+    background-color: whitesmoke ;
 }
 .pilar{
+    font-size:medium;
+    background-color: transparent;
+    width: 500x;
+    height: 600PX;
+    padding-top: 10%;
+    margin: 5%;
+    border-radius: 50px;
+    background-image:  url(./images/pergaminoBG.png);
+    background-repeat: no-repeat;
+    background-repeat: round space;
+    margin-bottom: 3%;
+}
+
+.pilar div{
+    width: 140px;
+    margin: 30%;
+    margin-top: 0%;
+}
+.pilar b{
     text-align: center;
-    width: 500px;
+    margin: 28%;
+
+}
+.textopilares{
+    font-size:X-large;
+    background-color: cadetblue;
+    margin-top: 15%;
+    padding: 8%;
+    width: 400px;
+    height: 200px;
+    text-align: justify;
+    border-radius: 0px 50px 0px 50px;
 }

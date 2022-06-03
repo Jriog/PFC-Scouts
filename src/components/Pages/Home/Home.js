@@ -11,7 +11,6 @@ function Home() {
       <VideoSection/>
       <Descripcion/>
       <Pilares/>
-      <Redes/>
     </div>
   );
 }

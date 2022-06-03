@@ -1,15 +1,48 @@
 import React from 'react';
 import './Pilares.css';
-
+import pergamino from './images/pergaminoBG.png'
 
 function Pilares() {
   return (
-    <div id='pilares' class="h-56 grid grid-cols-10 gap-10 content-center ...">
-      <div class=""></div>
-      <div id='pilar1' class="pilar col-span-2" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-      <div id='pilar2'class="pilar col-span-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</div>
-      <div id='pilar3'class="pilar col-span-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</div>
-      <div class=""></div>
+    <div>
+      <div id='pilares' class="h-56 grid grid-cols-12 content-center ...">
+        <div class=""></div>
+        <div class="h-96 grid grid-rows-6 col-span-2">
+          <div class=""></div>
+          <div class="textopilares">Aquí va un texto indicando que lo de la derecha son los pilares fundamentales de los scouts</div>
+          <div class=""></div>
+        </div>
+        <div class=""></div>
+        <div class=""></div>
+        <div id='pilar1' class="pilar gap-2 col-span-2" >
+        <b>Educación en</b>
+        <br></br>
+        <b>valores:</b>
+        <br></br>
+        <div>El joven establece libremente un compromiso personal ante sus compañeros, asumiendo una responsabilidad: 
+        social, personal, ética… resumidos en la promesa y la Ley Scout.</div>
+        </div>
+
+        <div id='pilar2'class="pilar gap-2  col-span-2">
+          <b>La vida en</b>
+          <br></br>
+          <b>pequeños grupos:</b>
+          <br></br>
+          <div> El pequeño grupo socializa, identifica a sus miembros con los objetivos de las actividades y 
+          permite profundizar en el conocimiento mutuo.</div>
+        </div>
+
+        <div id='pilar3'class="pilar gap-2  col-span-2">
+          <b> La formación</b>
+          <br></br>
+          <b>autogestionada: </b>
+          <br></br>
+          <div>Cada joven participa en su propio proceso de desarrollo, 
+            formando parte activa de las diferentes etapas en las que se determina el Programa Educativo</div>   
+        </div>
+        <div class=""></div>
+        <div class=""></div>  
+      </div>
     </div>
   );
 }
