@@ -1,0 +1,20 @@
+#titulo_movS{
+    font-size: 18px;
+    font-weight:bolder;
+}
+
+#Q_S{
+    height: 600px;
+}
+
+li {
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.QS{
+    margin-top: 15%;
+    margin-left: 40%;
+    height: 400px;
+    border-radius: 30px;
+}

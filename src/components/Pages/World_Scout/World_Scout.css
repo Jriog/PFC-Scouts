@@ -1,48 +1,6 @@
-#W_S{
-    height: 75px;
-}  
-
-@media screen and (width<1000px) {
-    #W_S{
-        height: 0px;
-    }  
-    
-  }
-
-.ws{
-    background-color: cadetblue;
-}
-.pilarw{
-    padding: 5%;
+p{
     text-align: justify;
-    background-color: aqua;
-    width: 600px;
-    height: 200px;
 }
-
-#mundodiv{
-    padding-top: 5%;
-}
-
-#pilarw1{
-
-}
-
-#pilarw2{
-    
-}
-#pilarw3{
-    
-}
-#pilarw5{
-    
-}
-#pilarw6{
-    
-}
-#pilarw7{
-    
-}
-#pilarw8{
-    
+li{
+    text-align: justify;
 }

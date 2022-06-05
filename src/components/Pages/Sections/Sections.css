@@ -5,33 +5,9 @@ min-height: 1200px;
 padding-top: 3%;
 padding-bottom: 7%;
 }
-#sections_explanation_1{
-    margin: auto;
-}
-#sections_explanation_2{
-    margin: auto;
-}
-
-#colonia{
-    margin: auto;
-}
-#manada{
-    margin: auto;
-}
-#scouts{
-    margin: auto;
-}
-#escultas{
-    margin: auto;
-}
-#rovers{
-    margin: auto;
-}
-#scouters{
-    margin: auto;
-}
 
 #tittle_part{
+    margin-left: 2%;
     font-size: 30px;
     font-weight: bold;
 }
@@ -63,5 +39,22 @@ padding-bottom: 7%;
 }
 
 #main_sections div div p{
+    margin-left: 4%;
     font-size: 18px;
+}
+.texto_sections{
+    text-align: justify;
+
+}
+.subtitle{
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+.seccion{
+    padding: 2%;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
 }

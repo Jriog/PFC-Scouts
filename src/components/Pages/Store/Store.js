@@ -5,8 +5,8 @@ function Store() {
   return (
     <div className='scrollmenu'>
       <div id='W_S'></div>
-      <div id='mundodiv' className='ws grid grid-rows-4 gap-8'>
-        <div class="h-56 grid grid-cols-6 gap-20 content-center ...">
+      <div id='mundodiv' className='ws grid grid-rows-4 gap-1'>
+        <div class="h-56 grid grid-cols-6 content-center ...">
             <div></div>
             <div id='pilarw1' class="pilarw" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
             <div></div>
@@ -14,7 +14,7 @@ function Store() {
             <div></div>
             <div></div>
           </div>
-          <div class="h-56 grid grid-cols-6 gap-20 content-center ...">
+          <div class="h-56 grid grid-cols-6 content-center ...">
             <div></div>
             <div id='pilarw3' class="pilarw" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
             <div></div>
@@ -22,7 +22,7 @@ function Store() {
             <div></div>
             <div></div>
           </div>
-          <div class="h-56 grid grid-cols-6 gap-20 content-center ...">
+          <div class="h-56 grid grid-cols-6 content-center ...">
             <div></div>
             <div id='pilarw5' class="pilarw" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
             <div></div>
