@@ -10,7 +10,7 @@ function Nav() {
         <h4><NavLink to="/">San Jorge 33</NavLink></h4>
       </div>
       <ul className={"nav-links"}>
-        <li><NavLink to="/about">¿Quienes somos?</NavLink></li>
+        <li><NavLink to="/about">Quienes somos</NavLink></li>
         <li><NavLink to="/sections">Secciones</NavLink></li>
         <li><NavLink to="/world_Scout">Mundo Scout</NavLink></li>
         <li><NavLink to="/joinUs">Apúntate</NavLink></li>

@@ -1,12 +1,15 @@
 import React from 'react';
 import './About.css';
 import Descripcion from './Partes/Descripcion/Descripcion.js'
-import foto from './flor_de_lis.png'
+import Donde from './Partes/Donde/donde.js'
+import Leyenda from './Partes/leyenda/leyenda.js'
 
 function About() {
   return (
-    <div id='descripcion1' class="">
+    <div id='about' class="">
       <Descripcion/>
+      <Leyenda/>
+      <Donde/>
     </div>
   );
 }

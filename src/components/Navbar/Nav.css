@@ -17,6 +17,7 @@ nav{
     letter-spacing: 5px;
     font-size: 20px;
     font-weight: bold;
+    font-size: x-large;
   }
 
   .nav-links{
@@ -33,6 +34,7 @@ nav{
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size .3s;
+  font-size: large;
   }
   
   .nav-links li a:hover, .nav-links li a:focus {
