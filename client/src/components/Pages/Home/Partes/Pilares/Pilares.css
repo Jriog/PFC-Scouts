@@ -1,6 +1,10 @@
 #pilares{
-    height:1000px;
+    height:1200px;
     background-color: whitesmoke ;
+}
+.pilarR{
+    text-align: justify;
+    background-color: aqua;
 }
 .pilar{
     font-size:medium;
@@ -28,7 +32,7 @@
 }
 .textopilares{
     font-size:X-large;
-    background-color: cadetblue;
+    background: linear-gradient(160deg, rgba(0,138,255,1) 10%, rgba(255,255,255,1) 50%);
     margin-top: 15%;
     padding: 8%;
     width: 400px;

@@ -3,7 +3,7 @@ import './Home.css';
 import VideoSection from './Partes/VideoSection/VideoSection';
 import Pilares from './Partes/Pilares/Pilares';
 import Descripcion from './Partes/Descripcion/Descripcion';
-import Redes from './Partes/RRSS/Redes';
+
 
 function Home() {
   return (

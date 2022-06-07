@@ -4,12 +4,12 @@ import pergamino from './images/pergaminoBG.png'
 
 function Pilares() {
   return (
-    <div>
-      <div id='pilares' class="h-56 grid grid-cols-12 content-center ...">
+    <div className='h-screen '>
+      <div id='pilares' class="grid grid-cols-12 content-center ...">
         <div class=""></div>
         <div class="h-96 grid grid-rows-6 col-span-2">
           <div class=""></div>
-          <div class="textopilares">Aquí va un texto indicando que lo de la derecha son los pilares fundamentales de los scouts</div>
+          <div class="textopilares">El <b>método educativo</b> del grupo se basa en los 3 pilares más importantes del movimiento scout</div>
           <div class=""></div>
         </div>
         <div class=""></div>

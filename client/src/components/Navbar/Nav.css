@@ -1,6 +1,6 @@
 nav{
     /*Hace referencia al tag nav*/
-    position: fixed;
+    position: sticky;
     width: 100%;
     display: flex;
     justify-content: space-around;
