@@ -2,7 +2,11 @@ import React from 'react';
 import './leyenda.css';
 import foto_SJyD from './SJyD.jpg'
 
+import { useTranslation } from 'react-i18next';
+import '../../../../i18n.js';
+
 function Leyenda() {
+    const { t, i18n } = useTranslation();
     return (
         <div id='leyenda'>
             <br></br>
@@ -13,36 +17,22 @@ function Leyenda() {
                 <div></div>
                 <div className='col-span-3'>
                     <a className='titulo'>
-                        San Jorge, Patrón de los Scouts
+                        {t('patron_t')}
                     </a>
                     <br></br>
                     <br></br>
                     <p className='leyenda_p'>
-                        Los ciudadanos tenían la obligación de entregar al dragón a varias personas de la ciudad con cierta regularidad.
-
-                        Una de esas veces, le tocó a la hija del rey ser devorada por el dragón.
-
-                        La dejaron junto a la fuente, sola.
-
-                        En aquel momento pasó San Jorge por allí, mató al monstruo y rescató a la princesa, liberando a la ciudad de su castigo.
-
-                        Se dice que en el lugar donde se derramó la sangre de la bestia creció una rosa roja.
+                        {t('patrontext1')}
                         <br></br>
                         <br></br>
-                        Es una de las leyendas más extendidas del mundo, y la creencia en San Jorge y su historia existe en muchos países y culturas, adaptada a la religión correspondiente.
+                        {t('patrontext2')}
                         <br></br>
-                        San Jorge tiene también mucha importancia como patrón y símbolo en muchas zonas y ciudades.
-
+                        {t('patrontext4')}
                         <br></br> <br></br>
-                        Fue patrón de Inglaterra durante muchos años, es el ideal del caballero medieval y la llamada “cruz de San Jorge”
-                        (roja sobre fondo blanco, a veces con los extremos rematados por flores de Lis)
-                        está presente en muchas banderas, entre ellas la de Reino Unido y la de Cataluña.
-
+                        {t('patrontext5')}
                         <br></br> <br></br>
-                        Baden Powell eligió a San Jorge como patrón de los scouts de todo el mundo.
-                        En “<a href='https://es.wikipedia.org/wiki/Escultismo_para_muchachos'>Escultismo para muchachos</a>” escribió lo siguiente sobre el santo:
-                        “Tenían por patrón (los Caballeros de la Mesa Redonda) a San Jorge, porque éste era el único santo a caballo.
-                        Es el santo patrón de la Caballería y de Inglaterra.
+                        {t('patrontext6')}“<a href='https://es.wikipedia.org/wiki/Escultismo_para_muchachos'>Escultismo para muchachos</a>” escribió lo siguiente sobre el santo:
+                        “{t('patrontext7')}
                     </p>
 
                     <br></br>

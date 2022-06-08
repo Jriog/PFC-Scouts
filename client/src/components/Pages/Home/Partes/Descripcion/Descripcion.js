@@ -2,7 +2,11 @@ import React from 'react';
 import './Descripcion.css';
 import foto from './grupo.jpg'
 
+import { useTranslation } from 'react-i18next';
+import '../../../../i18n.js';
+
 function Descripcion() {
+  const { t, i18n } = useTranslation();
   return (
     <div className='h-screen'>
     <br></br>
@@ -19,7 +23,7 @@ function Descripcion() {
         <br></br>
         <br></br>
         <p className='description'>
-        El grupo, <b>fundado en el año 1965</b>, es una <b>asociación sin ánimo de lucro</b> que se basa en un proyecto educativo dirigido a infancia, adolescencia y juventud con el objetivo de promover su educación y su implicación social.
+        {t('el')} grupo, <b>fundado {t('año')} 1965</b>, {t('es_una')} <b>{t('lucro')}</b> {t('texto_home')}
         </p>
       </div>
       <div></div>

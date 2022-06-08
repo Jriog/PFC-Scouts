@@ -31,11 +31,7 @@ function Footer() {
                         Apúntate
                     </a>
                 </li>
-                <li class="my-2">
-                    <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="/Store">
-                        Tienda
-                    </a>
-                </li>
+               
             </ul>
             <div class="pt-8 flex max-w-xs mx-auto items-center justify-between">
                 <a href="https://www.facebook.com/gs.sanjorge33" class="text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">

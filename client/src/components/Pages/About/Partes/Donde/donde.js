@@ -1,8 +1,11 @@
 import React from 'react';
 import './donde.css';
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
+import { useTranslation } from 'react-i18next';
+import '../../../../i18n.js';
 
 function Donde() {
+  const { t, i18n } = useTranslation();
   return (
     <div id='donde'>
     <br></br>
@@ -13,11 +16,11 @@ function Donde() {
         <div></div>
         <div className='col-span-3'>
             <a className='titulo'>
-                ¿Dónde estamos?
+            {t("where")}
             </a>
             <br></br>
             <br></br>
-            <a> Nos situamos en la calle Camino de la Iglesia, en los bajos 33-35, CP: 15009 A Coruña (A Coruña).</a>
+            <a>  {t("where2")}</a>
             <br></br>
             <br></br>
         </div>

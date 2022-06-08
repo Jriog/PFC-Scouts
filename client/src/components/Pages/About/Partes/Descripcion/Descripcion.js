@@ -1,9 +1,11 @@
 import React from 'react';
 import './Descripcion.css';
 import foto_grupo from './grupo.jpg'
-
+import { useTranslation } from 'react-i18next';
+import '../../../../i18n.js';
 
 function Descripcion() {
+  const { t, i18n } = useTranslation();
   return (
     <div>
       <br></br>
@@ -18,17 +20,13 @@ function Descripcion() {
         <div></div>   
         <div className='col-span-3'>
           <a className='titulo'>
-          Quiénes somos
+          {t('whos')}
           </a>
           <br></br>
           <br></br>
           <p className='description'>
-            El <b>Grupo Scout San Jorge 33</b>, miembro de <a className='enlace'href="http://www.scout.es/" target="_blank" rel="noopener">ASDE – Scouts de Galicia</a> y
-            por tanto de la <a className='enlace'href="http://www.scoutsdegalicia.org/" target="_blank" rel="noopener">Federación de Asociaciones de Scouts 
-            de España (ASDE)</a>, es una <b>asociación sin ánimo de lucro</b> infantil y juvenil, orientado por adultos voluntarios comprometidos en el servicio 
-            educativo, que ofrece los medios y ocasiones necesarios a fin de contribuir a la educación integral de las personas, 
-            potenciando principalmente su sentido de la responsabilidad, libertad y servicio, según el Método Scout iniciado 
-            por <a  className='enlace'href="https://es.wikipedia.org/wiki/Robert_Baden-Powell" target="_blank" rel="noopener">Baden Powell</a> y un sistema de educación progresiva.
+            {t('el')} <b>Grupo Scout San Jorge 33</b>, {t('miembro')} de <a className='enlace'href="http://www.scout.es/" target="_blank" rel="noopener">ASDE – Scouts de Galicia</a> {t('portanto')}<a className='enlace'href="https://www.scout.es/" target="_blank" rel="noopener">Federación de Asociaciones de Scouts 
+            de España (ASDE)</a>, {('es')} una <b>asociación {t('sin')} ánimo de lucro</b> infantil {t('y')} juvenil, {t('whos_text')}<a  className='enlace'href="https://es.wikipedia.org/wiki/Robert_Baden-Powell" target="_blank" rel="noopener">Baden Powell</a> {t('y')} un sistema de educación progresiva.
           </p>
         </div>
         <div></div>

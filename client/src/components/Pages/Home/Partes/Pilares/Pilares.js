@@ -2,14 +2,19 @@ import React from 'react';
 import './Pilares.css';
 import pergamino from './images/pergaminoBG.png'
 
+import { useTranslation } from 'react-i18next';
+import '../../../../i18n.js';
+
+
 function Pilares() {
+  const { t, i18n } = useTranslation();
   return (
     <div className='h-screen '>
       <div id='pilares' class="grid grid-cols-12 content-center ...">
         <div class=""></div>
         <div class="h-96 grid grid-rows-6 col-span-2">
           <div class=""></div>
-          <div class="textopilares">El <b>método educativo</b> del grupo se basa en los 3 pilares más importantes del movimiento scout</div>
+          <div class="textopilares">{t('el')} <b>método educativo</b> {t('texto_home2')}</div>
           <div class=""></div>
         </div>
         <div class=""></div>
@@ -19,26 +24,23 @@ function Pilares() {
         <br></br>
         <b>valores:</b>
         <br></br>
-        <div>El joven establece libremente un compromiso personal ante sus compañeros, asumiendo una responsabilidad: 
-        social, personal, ética… resumidos en la promesa y la Ley Scout.</div>
+        <div>{t('texto_pilar_1')}</div>
         </div>
 
         <div id='pilar2'class="pilar gap-2  col-span-2">
-          <b>La vida en</b>
+          <b>{t('t_pilar_2_1')}</b>
           <br></br>
-          <b>pequeños grupos:</b>
+          <b>{t('t_pilar_2_2')}</b>
           <br></br>
-          <div> El pequeño grupo socializa, identifica a sus miembros con los objetivos de las actividades y 
-          permite profundizar en el conocimiento mutuo.</div>
+          <div>{t('texto_pilar_2')}</div>
         </div>
 
         <div id='pilar3'class="pilar gap-2  col-span-2">
-          <b> La formación</b>
+          <b>{t('t_pilar_3')}</b>
           <br></br>
           <b>autogestionada: </b>
           <br></br>
-          <div>Cada joven participa en su propio proceso de desarrollo, 
-            formando parte activa de las diferentes etapas en las que se determina el Programa Educativo</div>   
+          <div>{t('texto_pilar_3')}</div>   
         </div>
         <div class=""></div>
         <div class=""></div>  

@@ -10,7 +10,6 @@ import About from "../Pages/About/About";
 import Sections from "../Pages/Sections/Sections";
 import World_Scout from "../Pages/World_Scout/World_Scout";
 import JoinUs from "../Pages/JoinUs/JoinUs";
-import Store from "../Pages/Store/Store";
 
 export default function router() {
   return (
@@ -26,8 +25,6 @@ export default function router() {
           <Route path="/world_Scout" element={<World_Scout/>}>
           </Route>
           <Route path="/joinUs" element={<JoinUs/>}>
-          </Route>
-          <Route path="/Store" element={<Store/>}>
           </Route>
         </Routes>
     </Router>

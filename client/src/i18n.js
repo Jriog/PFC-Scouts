@@ -1,0 +1,93 @@
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+
+const resources = {
+  es: {
+    translation: {
+      whos: 'Quienes Somos',
+      año: 'en el año',
+      el:'El',
+      es:'es',
+      y: 'y',
+      texto_home:' que se basa en un proyecto educativo dirigido a infancia, adolescencia y juventud con el objetivo de promover su educación y su implicación social.',
+      texto_home2: "del grupo se basa en los 3 pilares más importantes del movimiento scout",
+      t_pilar_1:'',
+      t_pilar_2_1:'La vida en',
+      t_pilar_2_2:'pequeños grupos:',
+      t_pilar_3:'La formación',
+      texto_pilar_1:'El joven establece libremente un compromiso personal ante sus compañeros, asumiendo una responsabilidad: social, personal, ética… resumidos en la promesa y la Ley Scout.',
+      texto_pilar_2:'El pequeño grupo socializa, identifica a sus miembros con los objetivos de las actividades y permite profundizar en el conocimiento mutuo.',
+      texto_pilar_3:'Cada joven participa en su propio proceso de desarrollo, formando parte activa de las diferentes etapas en las que se determina el Programa Educativo',
+      lucro: 'sin ánimo de lucro',
+      miembro:'miembro',
+      es_una: 'es una',
+      sin: 'sin',
+      portanto:' y por tanto de la ',
+      whos_text:'orientado por adultos voluntarios comprometidos en el servicio educativo, que ofrece los medios y ocasiones necesarios a fin de contribuir a la educación integral de las personas,  potenciando principalmente su sentido de la responsabilidad, libertad y servicio, según el Método Scout iniciado por ',
+      patron_t:'San Jorge, Patrón de los Scouts',
+      sections: 'Secciones',
+      join: 'Apúntate',
+      w_scout: 'Mundo Scout',
+      store:"tienda",
+      where:"¿Dónde estamos?",
+      where2:"Nos situamos en la calle Camino de la Iglesia, en los bajos 33-35, CP: 15009 A Coruña (A Coruña).",
+      patrontext1:'Los ciudadanos tenían la obligación de entregar al dragón a varias personas de la ciudad con cierta regularidad. Una de esas veces, le tocó a la hija del rey ser devorada por el dragón. La dejaron junto a la fuente, sola. En aquel momento pasó San Jorge por allí, mató al monstruo y rescató a la princesa, liberando a la ciudad de su castigo. Se dice que en el lugar donde se derramó la sangre de la bestia creció una rosa roja.',
+      patrontext2:'Es una de las leyendas más extendidas del mundo, y la creencia en San Jorge y su historia existe en muchos países y culturas, adaptada a la religión correspondiente.',
+      patrontext4:'San Jorge tiene también mucha importancia como patrón y símbolo en muchas zonas y ciudades.',
+      patrontext5:'Fue patrón de Inglaterra durante muchos años, es el ideal del caballero medieval y la llamada “cruz de San Jorge” (roja sobre fondo blanco, a veces con los extremos rematados por flores de Lis) está presente en muchas banderas, entre ellas la de Reino Unido y la de Cataluña.',
+      patrontext6:'Baden Powell eligió a San Jorge como patrón de los scouts de todo el mundo. En ',
+      patrontext7:'Tenían por patrón (los Caballeros de la Mesa Redonda) a San Jorge, porque éste era el único santo a caballo. Es el santo patrón de la Caballería y de Inglaterra.',
+    },
+  },
+  gl: {
+    translation: {
+        whos: 'Quenes somos',
+        lucro: 'sen ánimo de lucro',
+        el:'O',
+        es:'é',
+        y:'e',
+        texto_home:"que se basea nun proxecto educativo dirixido á infancia, adolescencia e mocidade co obxectivo de promover a súa educación e a súa implicación social.",
+        texto_home2:"do grupo baséase nos 3 piares máis importantes do movemento scout",
+        t_pilar_1:'',
+        t_pilar_2_1:'La vida en',
+        t_pilar_2_2:'pequeños grupos:',
+        t_pilar_3:'A formación',
+        texto_pilar_1:'O mozo establece libremente un compromiso persoal #ante os seus compañeiros, asumindo unha responsabilidade: social, persoal, ética… resumidos na promesa e a Lei Scout.',
+        texto_pilar_2:'O pequeno grupo  socializa, identifica os seus membros cos obxectivos das actividades e permite profundar no coñecemento mutuo.',
+        texto_pilar_3:'Cada mozo participa no seu propio proceso de desenvolvemento, formando parte activa das diferentes etapas nas que se determina o Programa Educativo',
+        año: 'no ano',
+        es_una: 'é unha',
+        sin: 'sen',
+        miembro:'membro',
+        patron_t:'San Jorge, Patrón dos Scouts',
+        portanto:' e por tanto da ',
+        whos_text:'orientada por voluntarios adultos comprometidos co servizo educativo, que ofrece os medios e oportunidades necesarios para contribuír á educación integral das persoas, potenciando fundamentalmente o seu sentido de responsabilidade, liberdade e servizo, segundo o Método Scout iniciado por',
+        sections: 'Secciones',
+        join: 'Apúntate',
+        w_scout: 'Mundo Scout',
+        store:"tienda",
+        where:"¿Onde estamos?",
+        where2:'Situamonos na rúa Camino de la Iglesia, nos baixos 33-35, CP: 15009 A Coruña (A Coruña).',
+        patrontext1:'Os cidadáns debían entregar o dragón a varias persoas da cidade de forma regular. Unha desas veces, foi a quenda da filla do rei de ser devorada polo dragón. Deixárona á beira da fonte, soa. Nese momento pasou San Jorge, matou o monstro e rescatou á princesa, liberando a cidade do seu castigo. Cóntase que no lugar onde se derramou o sangue da besta creceu unha rosa vermella.',
+        patrontext2:'É unha das lendas máis difundidas no mundo, e a crenza en San Jorge e na súa historia existe en moitos países e culturas, adaptada á relixión correspondente.',
+        patrontext3:'Tamén é moi importante como patrón e símbolo en moitas zonas e cidades.',
+        patrontext4:'San Jorge é tamén moi importante como patrón e símbolo en moitas zonas e cidades.',
+        patrontext5:'Foi o patrón de Inglaterra durante moitos anos, é o ideal do cabaleiro medieval e a chamada "cruz de San Jorge" (vermello sobre fondo branco, ás veces cos extremos rematados por flores de lis) é presente en moitas bandeiras, entre elas a de Reino Unido e Cataluña.',
+        patrontext6:'Baden Powell escolleu a San Jorge como patrón dos exploradores de todo o mundo. En',
+        patrontext7:'O seu patrón (os Cabaleiros da Mesa Redonda) era San Jorge, porque era o único santo a cabalo. É o patrón da cabalería e de Inglaterra.',
+    },
+  },
+};
+
+i18n.use(initReactI18next).init({
+  resources,
+  lng: 'es',
+
+  keySeparator: false,
+
+  interpolation: {
+    escapeValue: false,
+  },
+});
+
+export default i18n;

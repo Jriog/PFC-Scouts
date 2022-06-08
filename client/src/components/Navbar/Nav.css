@@ -1,6 +1,6 @@
 nav{
     /*Hace referencia al tag nav*/
-    position: sticky;
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -46,4 +46,8 @@ nav{
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
+  }
+
+  .flag{
+    width:30px;
   }

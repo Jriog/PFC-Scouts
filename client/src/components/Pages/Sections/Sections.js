@@ -7,6 +7,9 @@ import escultas from "./esculta.jpg";
 import rovers from "./clan.jpg";
 import scouters from "./scouters.jpg";
 
+import { useTranslation } from 'react-i18next';
+import '../../../i18n.js';
+
 function Sections() {
   return (
     <div id="sections">
