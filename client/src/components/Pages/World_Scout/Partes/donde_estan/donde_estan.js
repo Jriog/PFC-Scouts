@@ -1,8 +1,14 @@
+import { t } from 'i18next';
 import React from 'react';
 import './donde_estan.css';
 import mapa_WOSM from "./map_wosm.jpg";
+import { useTranslation } from 'react-i18next';
+import '../../../../i18n.js';
 
 function donde_estan() {
+
+  const { t, i18n } = useTranslation();
+  
   return (
     <div id='D_E'>
       <br></br>
@@ -13,19 +19,14 @@ function donde_estan() {
         <div className='col-span-2 DE'>
           <br></br>
           <br></br>
-          <h1 id="titulo_movS">DÓNDE ESTAMOS</h1>
+          <h1 id="titulo_movS">{t('where_t')}</h1>
           <br></br>
           <p>
-            El movimiento scout existe en 162 países lo que suponen más de 460 millones de personas, de diferentes culturas,
-            lenguas y religiones trabajando por construir un mundo mejor. Todo ello gracias a cerca de 7 millones de adultos voluntarios
-            que apoyan las actividades que desarrollan los grupos scouts.
+            {t('txt_DE_1')}
           </p>
           <br></br>
           <p>
-            La Organización Mundial del Movimiento Scout (OMMS) es una organización independiente, mundial, sin fines de lucro
-            y no partidista, la cual sirve al Movimiento Scout. Su finalidad es promover la unidad y el entendimiento de los principios
-            y propósitos del Movimiento Scout, facilitando al mismo tiempo la expansión y el desarrollo del mismo.
-            Los órganos de la Organización Mundial son la Conferencia Scout Mundial, el Comité Scout Mundial y la Oficina Scout Mundial.
+           {t('txt_DE_2')}
           </p>
           <br></br>
         </div>

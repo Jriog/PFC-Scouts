@@ -1,7 +1,13 @@
 import React from 'react';
 import './Footer.css';
 
+import { useTranslation } from 'react-i18next';
+import '../i18n.js';
+
 function Footer() {
+
+    const { t, i18n } = useTranslation();
+
   return (
     <div class="bg-white dark:bg-gray-800 w-full py-8 footer">
         <div class="max-w-screen-xl mx-auto px-4">
@@ -13,22 +19,22 @@ function Footer() {
                 </li>
                 <li class="my-2">
                     <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="/about">
-                        ¿Quienes Somos?
+                    {t("whos")}
                     </a>
                 </li>
                 <li class="my-2">
                     <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="/sections">
-                        Secciones
+                    {t("sections")}
                     </a>
                 </li>
                 <li class="my-2">
                     <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="/world_Scout">
-                        Mundo Scout
+                    {t("w_scout")}
                     </a>
                 </li>
                 <li class="my-2">
                     <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="/joinUs">
-                        Apúntate
+                    {t("join")}
                     </a>
                 </li>
                
