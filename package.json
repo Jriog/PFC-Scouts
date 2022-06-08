@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "jquery": "^3.6.0",
-    "jspdf": "^2.5.1"
-  }
-}
