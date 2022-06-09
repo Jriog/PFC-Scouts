@@ -1,11 +1,11 @@
 import React from 'react';
 import './About.css';
-import Descripcion from './Partes/Descripcion/Descripcion.js'
-import Donde from './Partes/Donde/donde.js'
-import Leyenda from './Partes/leyenda/leyenda.js'
+import Descripcion from './Partes/Descripcion/Descripcion.js';
+import Donde from './Partes/Donde/donde.js';
+import Leyenda from './Partes/leyenda/leyenda.js';
 
 import { useTranslation } from 'react-i18next';
-import '../../../i18n.js';
+import '../../i18n.js';
 
 function About() {
   return (

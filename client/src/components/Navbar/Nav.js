@@ -20,8 +20,8 @@ function Nav() {
       <ul className={"nav-links"}>
         <li><NavLink to="/about">{t("whos")}</NavLink></li>
         <li><NavLink to="/sections">{t("sections")}</NavLink></li>
-        <li><NavLink to="/world_Scout">{t("w_scout")}</NavLink></li>
-        <li><NavLink to="/joinUs">{t("join")}</NavLink></li>
+        <li><NavLink to="/mundo_Scout">{t("w_scout")}</NavLink></li>
+        <li><NavLink to="/colabora">{t("colabora")}</NavLink></li>
       </ul>
       <div className="row mt-5">
         <div className="col-md-8 offset-md-2">

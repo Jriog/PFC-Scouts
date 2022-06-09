@@ -1,10 +1,11 @@
 import React from 'react';
 import './que_hacen.css';
 import img2 from './img_2.jpg';
+
 import { useTranslation } from 'react-i18next';
 import '../../../../i18n.js';
 
-function que_hacen() {
+function Que_hacen() {
   const { t, i18n } = useTranslation();
   return (
     <div id='Q_H'>
@@ -46,4 +47,4 @@ function que_hacen() {
   );
 }
 
-export default que_hacen;
+export default Que_hacen;

@@ -38,7 +38,7 @@ function Pilares() {
         <div id='pilar3'class="pilar gap-2  col-span-2">
           <b>{t('t_pilar_3')}</b>
           <br></br>
-          <b>autogestionada: </b>
+          <b>{t('autogestionada')}: </b>
           <br></br>
           <div>{t('texto_pilar_3')}</div>   
         </div>

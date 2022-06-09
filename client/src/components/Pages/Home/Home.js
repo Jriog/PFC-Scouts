@@ -5,7 +5,7 @@ import Pilares from './Partes/Pilares/Pilares';
 import Descripcion from './Partes/Descripcion/Descripcion';
 
 import { useTranslation } from 'react-i18next';
-import '../../../i18n.js';
+import '../../i18n.js';
 
 function Home() {
   return (

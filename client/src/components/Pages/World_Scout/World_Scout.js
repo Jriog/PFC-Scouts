@@ -3,12 +3,11 @@ import './World_Scout.css';
 import Que_hacen from './Partes/que_hacen/que_hacen';
 import Quienes_son from './Partes/quienes_son/quienes_son';
 import Donde_estan from './Partes/donde_estan/donde_estan';
+
 import { useTranslation } from 'react-i18next';
 import '../../i18n';
  
-
 function World_Scout() {
-  const { t, i18n } = useTranslation();
   return (
     <div id='W_S'>
       <br></br>

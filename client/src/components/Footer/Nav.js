@@ -8,6 +8,16 @@ import './Nav.css';
 import lg_es from "../../assets/lg_es.jpg";
 import lg_gl from "../../assets/lg_gl.png";
 
+function scrollTotop() {
+    console.log('ready');
+    alert( "ready!" );
+    //window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+
+
+
+
 function Nav() {
   const { t, i18n } = useTranslation();
 
@@ -18,10 +28,10 @@ function Nav() {
         <h4><NavLink to="/">San Jorge 33</NavLink></h4>
       </div>
       <ul className={"nav-links"}>
-        <li><NavLink to="/about">{t("whos")}</NavLink></li>
-        <li><NavLink to="/sections">{t("sections")}</NavLink></li>
-        <li><NavLink to="/world_Scout">{t("w_scout")}</NavLink></li>
-        <li><NavLink to="/joinUs">{t("join")}</NavLink></li>
+        <li onClick={scrollTotop}><NavLink to="/about">{t("whos")}</NavLink></li>
+        <li onClick={scrollTotop}><NavLink to="/sections">{t("sections")}</NavLink></li>
+        <li onClick={scrollTotop}><NavLink to="/world_Scout">{t("w_scout")}</NavLink></li>
+        <li onClick={scrollTotop}><NavLink to="/joinUs">{t("colabora")}</NavLink></li>
       </ul>
       <div className="row mt-5">
         <div className="col-md-8 offset-md-2">

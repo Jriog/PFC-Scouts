@@ -2,10 +2,11 @@ import { t } from 'i18next';
 import React from 'react';
 import './donde_estan.css';
 import mapa_WOSM from "./map_wosm.jpg";
+
 import { useTranslation } from 'react-i18next';
 import '../../../../i18n.js';
 
-function donde_estan() {
+function Donde_estan() {
 
   const { t, i18n } = useTranslation();
   
@@ -38,4 +39,4 @@ function donde_estan() {
   );
 }
 
-export default donde_estan;
+export default Donde_estan;

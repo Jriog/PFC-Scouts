@@ -25,8 +25,7 @@ function Descripcion() {
           <br></br>
           <br></br>
           <p className='description'>
-            {t('el')} <b>Grupo Scout San Jorge 33</b>, {t('miembro')} de <a className='enlace'href="http://www.scout.es/" target="_blank" rel="noopener">ASDE – Scouts de Galicia</a> {t('portanto')}<a className='enlace'href="https://www.scout.es/" target="_blank" rel="noopener">Federación de Asociaciones de Scouts 
-            de España (ASDE)</a>, {('es')} una <b>asociación {t('sin')} ánimo de lucro</b> infantil {t('y')} juvenil, {t('whos_text')}<a  className='enlace'href="https://es.wikipedia.org/wiki/Robert_Baden-Powell" target="_blank" rel="noopener">Baden Powell</a> {t('y')} un sistema de educación progresiva.
+            {t('el')} <b>Grupo Scout San Jorge 33</b>, {t('miembro')} de <a className='enlace'href="http://www.scout.es/" target="_blank" rel="noopener">ASDE – Scouts de Galicia</a> {t('portanto')}<a className='enlace'href="https://www.scout.es/" target="_blank" rel="noopener">{t('ASDE')}</a>, {t('es_una')} <b>asociación {t('sin')} ánimo de lucro</b> infantil {t('y')} {t('juvenil')}, {t('whos_text')} <a  className='enlace'href="https://es.wikipedia.org/wiki/Robert_Baden-Powell" target="_blank" rel="noopener">Baden Powell</a> {t('y')} un sistema de educación progresiva.
           </p>
         </div>
         <div></div>

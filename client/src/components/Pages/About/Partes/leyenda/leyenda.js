@@ -31,8 +31,7 @@ function Leyenda() {
                         <br></br> <br></br>
                         {t('patrontext5')}
                         <br></br> <br></br>
-                        {t('patrontext6')}“<a href='https://es.wikipedia.org/wiki/Escultismo_para_muchachos'>Escultismo para muchachos</a>” escribió lo siguiente sobre el santo:
-                        “{t('patrontext7')}
+                        {t('patrontext6')} “<a href='https://es.wikipedia.org/wiki/Escultismo_para_muchachos'>Escultismo para muchachos</a>”{t('patrontext7')}
                     </p>
 
                     <br></br>

@@ -20,7 +20,7 @@ function Donde() {
             </a>
             <br></br>
             <br></br>
-            <a>  {t("where2")}</a>
+            <a> {t("where2")}</a>
             <br></br>
             <br></br>
         </div>

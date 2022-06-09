@@ -5,7 +5,7 @@ import foto_QS from './scouts.jpg';
 import { useTranslation } from 'react-i18next';
 import '../../../../i18n.js';
 
-function quienes_son() {
+function Quienes_son() {
     const { t, i18n } = useTranslation();
     return (
         <div id='Q_S'>
@@ -43,4 +43,4 @@ function quienes_son() {
     );
 }
 
-export default quienes_son;
+export default Quienes_son;
