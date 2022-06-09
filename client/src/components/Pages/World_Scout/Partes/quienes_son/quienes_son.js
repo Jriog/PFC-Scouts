@@ -1,14 +1,13 @@
 import React from 'react';
 import './quienes_son.css';
 import foto_QS from './scouts.jpg';
-
 import { useTranslation } from 'react-i18next';
 import '../../../../i18n.js';
 
 function Quienes_son() {
     const { t, i18n } = useTranslation();
     return (
-        <div id='Q_S'>
+        <div id='Q_S' className=''>
             <div className='grid grid-cols-5 gap5'>
                 <div></div>
                 <div className='col-span-2'>

@@ -9,7 +9,7 @@ import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import Sections from "../Pages/Sections/Sections";
 import World_Scout from "../Pages/World_Scout/World_Scout";
-import Colabora from "../Pages/Colabora/Colabora";
+import Contacto from "../Pages/Contacto/Contacto";
 
 export default function router() {
   return (
@@ -24,7 +24,7 @@ export default function router() {
           </Route>
           <Route path="/mundo_Scout" element={<World_Scout/>}>
           </Route>
-          <Route path="/colabora" element={<Colabora/>}>
+          <Route path="/contacto" element={<Contacto/>}>
           </Route>
         </Routes>
     </Router>

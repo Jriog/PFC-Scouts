@@ -1,20 +1,40 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Footer.css';
-
+import { FaAngleUp } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import '../i18n.js';
+import './ScrollToTop.css'
 
 function Footer() {
-
+    
+    const [showTopBtn, setShowTopBtn] = useState(false);
     const { t, i18n } = useTranslation();
 
+    const goToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                setShowTopBtn(true);
+            } else {
+                setShowTopBtn(false);
+            }
+        });
+    }, []);
+    
   return (
     <div class="bg-white dark:bg-gray-800 w-full py-8 footer">
         <div class="max-w-screen-xl mx-auto px-4">
             <ul class="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
                 <li class="my-2">
                     <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="/">
-                        Inicio
+
+                        {t('Inicio')}
                     </a>
                 </li>
                 <li class="my-2">
@@ -33,9 +53,12 @@ function Footer() {
                     </a>
                 </li>
                 <li class="my-2">
-                    <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="/joinUs">
-                    {t("join")}
+                    <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="/Contacto">
+                    {t("contacto")}
                     </a>
+                </li>
+                <li>
+                <div className="top-to-btm"> {" "} {showTopBtn && ( <FaAngleUp className="icon-position icon-style" onClick={goToTop} /> )}{" "} </div>
                 </li>
                
             </ul>

@@ -1,12 +1,15 @@
 #Q_H{
-    height: 700px;
+    height: 800px;
+    font-size: large;
+    
 }
 .a{background-color: blue;}
 
 
 .QH{
-    margin-top: 15%;
+    margin-top: 35%;
     margin-left: 40%;
-    height: 400px;
+    height: 300px;
+    width: 600px;
     border-radius: 30px;
 }

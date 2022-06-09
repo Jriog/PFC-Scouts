@@ -48,7 +48,19 @@ nav{
     font-size: 14px;
   }
 
-  .flag{
-    width:30px;
+  #españa{
+    width: 35px;
+    margin-bottom: 12%;
     border: 1px solid rgb(190, 190, 190);
   }
+
+  #galicia{
+     width: 40px;
+     margin-bottom: 14%;
+     border: 1px solid rgb(190, 190, 190);
+  }
+
+  .text-primary {
+    --tw-text-opacity: 1;
+    color: rgb(14 211 207/var(--tw-text-opacity));
+}

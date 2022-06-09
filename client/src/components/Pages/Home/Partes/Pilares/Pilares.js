@@ -1,6 +1,5 @@
 import React from 'react';
 import './Pilares.css';
-import pergamino from './images/pergaminoBG.png'
 
 import { useTranslation } from 'react-i18next';
 import '../../../../i18n.js';
@@ -9,41 +8,61 @@ import '../../../../i18n.js';
 function Pilares() {
   const { t, i18n } = useTranslation();
   return (
-    <div className='h-screen '>
-      <div id='pilares' class="grid grid-cols-12 content-center ...">
+    <div  id='pilares' className='h-screen flex-row'>
+      <h1 class="pilarh1"><b>{t('Pilares')}</b></h1>
+      <h4 class="textopilares">{t('el')} <b>{t('metodo')}</b> {t('texto_home2')}</h4>
+     
+      <div class="grid grid-cols-5 content-center ...">
         <div class=""></div>
-        <div class="h-96 grid grid-rows-6 col-span-2">
-          <div class=""></div>
-          <div class="textopilares">{t('el')} <b>método educativo</b> {t('texto_home2')}</div>
-          <div class=""></div>
+        <div id='pilar1' class="pilar gap-2 " >
+          <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-36">
+            <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1650&q=80" />
+            <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
+            <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
+              <div class="absolute w-full flex place-content-center">
+                <p class="font-serif font-bold text-2xl text-center shadow-2xl text-white mt-5">{t('t_pilar_1')}</p>
+              </div>
+              <div class="absolute w-full flex place-content-center mt-20">
+              <br></br>
+                <p class="font-sans text-center w-4/5 text-white mt-5">{t('texto_pilar_1')}</p>
+              </div> 
+            </div>
+          </div>  
         </div>
-        <div class=""></div>
-        <div class=""></div>
-        <div id='pilar1' class="pilar gap-2 col-span-2" >
-        <b>Educación en</b>
-        <br></br>
-        <b>valores:</b>
-        <br></br>
-        <div>{t('texto_pilar_1')}</div>
+        
+        <div id='pilar1' class="pilar gap-2 " >
+          <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-36">
+            <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1650&q=80" />
+            <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
+            <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
+              <div class="absolute w-full flex place-content-center">
+                <p class="font-serif font-bold text-2xl text-center shadow-2xl text-white mt-5">{t('t_pilar_2')}</p>
+              </div>
+              <div class="absolute w-full flex place-content-center mt-20">
+              <br></br>
+                <p class="font-sans text-center w-4/5 text-white mt-10">{t('texto_pilar_2')}</p>
+              </div> 
+            </div>
+          </div>  
         </div>
 
-        <div id='pilar2'class="pilar gap-2  col-span-2">
-          <b>{t('t_pilar_2_1')}</b>
-          <br></br>
-          <b>{t('t_pilar_2_2')}</b>
-          <br></br>
-          <div>{t('texto_pilar_2')}</div>
+        <div id='pilar1' class="pilar gap-2 " >
+          <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-36">
+            <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1650&q=80" />
+            <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
+            <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
+              <div class="absolute w-full flex place-content-center">
+                <p class="font-serif font-bold text-2xl text-center shadow-2xl text-white mt-5">{t('t_pilar_3')}</p>
+              </div>
+              <div class="absolute w-full flex place-content-center mt-20">
+              <br></br>
+                <p class="font-sans text-center w-4/5 text-white mt-10">{t('texto_pilar_3')}</p>
+              </div> 
+            </div>
+          </div>  
         </div>
 
-        <div id='pilar3'class="pilar gap-2  col-span-2">
-          <b>{t('t_pilar_3')}</b>
-          <br></br>
-          <b>{t('autogestionada')}: </b>
-          <br></br>
-          <div>{t('texto_pilar_3')}</div>   
-        </div>
-        <div class=""></div>
-        <div class=""></div>  
+        
       </div>
     </div>
   );

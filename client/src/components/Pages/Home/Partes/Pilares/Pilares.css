@@ -1,42 +1,16 @@
 #pilares{
-    height:1200px;
+    height:1000px;
     background-color: whitesmoke ;
 }
-.pilarR{
-    text-align: justify;
-    background-color: aqua;
-}
-.pilar{
-    font-size:medium;
-    background-color: transparent;
-    width: 500x;
-    height: 600PX;
-    padding-top: 10%;
-    margin: 5%;
-    border-radius: 50px;
-    background-image:  url(./images/pergaminoBG.png);
-    background-repeat: no-repeat;
-    background-repeat: round space;
-    margin-bottom: 3%;
-}
 
-.pilar div{
-    width: 140px;
-    margin: 28%;
-    margin-top: 0%;
-}
-.pilar b{
-    text-align: center;
-    margin: 28%;
-
-}
 .textopilares{
-    font-size:X-large;
-    background: linear-gradient(160deg, rgba(0,138,255,1) 10%, rgba(255,255,255,1) 50%);
-    margin-top: 15%;
-    padding: 8%;
-    width: 400px;
-    height: 200px;
-    text-align: justify;
-    border-radius: 0px 50px 0px 50px;
+    padding-top: 5%;
+    text-align: center;
+    font-size:x-large;
+}
+
+.pilarh1{
+    padding-top: 5%;
+    text-align: center;
+    font-size: xx-large;
 }

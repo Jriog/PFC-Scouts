@@ -6,7 +6,7 @@ function Video() {
     
   return (
     <div id='myVideo'>
-        <video className='videoTag' autoPlay loop muted>
+        <video className='videoTag h-screen' autoPlay loop muted>
             <source src={rain} type='video/mp4' />
         </video>
     </div>

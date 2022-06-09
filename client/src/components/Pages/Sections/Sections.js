@@ -14,6 +14,7 @@ function Sections() {
   const { t, i18n } = useTranslation();
   return (
     <div id="sections">
+      
       <br></br>
       <br></br>
       <br></br>
