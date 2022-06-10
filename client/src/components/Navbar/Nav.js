@@ -14,19 +14,8 @@ function Nav() {
     window.scrollTo({
         top: 0,
     });
-};
+  };
 
-$('#galicia').click(
-  console.log('Galicia'),
-  $('#españa').css({'width':'40px'}),
-  $('#galicia').css({'width':'50px'})
-);
-
-$('#españa').click(
-  console.log('España'),
-  $('#galicia').css({'width':'40px'}),
-  $('#españa').css({'width':'50px'})
-);
 
 return (
 
@@ -43,12 +32,12 @@ return (
         <li><NavLink to="/contacto" onClick={goToTop}>{t("contacto")}</NavLink></li>
       </ul>
       <div className="row mt-5">
-        <div className="col-md-8 offset-md-2">
-          <button type="button" className="btn btn-secondary flag" onClick={() => i18n.changeLanguage('es')} disabled={i18n.language === 'es'}>
-            <img id="españa" classname="" src={lg_es}/>
+        <div className="col-md-8 offset-md-2" id='flags'>
+          <button type="button" id="españa" className="btn btn-secondary flag" onClick={() => i18n.changeLanguage('es')} disabled={i18n.language === 'es'}>
+            <img classname="" src={lg_es}/>
           </button>
-          <button type="button" className="btn btn-primary ml-2 flag" onClick={() => i18n.changeLanguage('gl')} disabled={i18n.language === 'gl'}>
-          <img  id="galicia" classname="" src={lg_gl}/>
+          <button type="button" id="galicia" className="btn btn-primary ml-2 flag" onClick={() => i18n.changeLanguage('gl')} disabled={i18n.language === 'gl'}>
+          <img classname=""src={lg_gl}/>
           </button>
           
         </div>

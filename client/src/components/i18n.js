@@ -116,7 +116,19 @@ const resources = {
       text_sections_Scouters_2:'En todas las secciones se cuenta con ',
       text_sections_Scouters_3:'voluntarios y voluntarias, monitores/as de Tiempo Libre, educadores/as, médicos, transportistas, cocineros…',
       text_sections_Scouters_4:'Si quieres compartir tu tiempo y experiencia en un grupo scout, ponte en contacto con nosotros. Te ofrecemos la posibilidad de entrar en un Grupo Scout y colaborar con las actividades y campañas que se realizan durante el año, así como en los campamentos de fines de semana y de verano.',
-
+     
+      Contact_tittle2:'Información de Contacto',
+      Contact_site:'No puedes encontrar todos los sábados de 17:00h a 19:30 en nuestros locales',
+      Contact_tittle:'No dudes en contactar con nosotros!',
+      ContactName:'Nombre',
+      Contact_lname:'Apellido',
+      Contact_mail:'Correo electrónico',
+      Contact_phone:'Teléfono',
+      Contact_subject:'Asunto',
+      Contact_message:'Mensaje',
+      Contact_characters:'Máximo 500 caracteres',
+      Contact_submit:'Enviar',
+      Contact_info_mail:'Puedes enviarnos un mensaje a : ',
     },
   },
   gl: {
@@ -234,8 +246,20 @@ const resources = {
         text_sections_Scouters_2:'En todas as seccións cóntase con ',
         text_sections_Scouters_3:'voluntarios e voluntarias, monitores/ as de Tempo Libre, educadores/ as, médicos, transportistas, cociñeiros…',
         text_sections_Scouters_4:'Se queres compartir o teu tempo e experiencia nun grupo scout, ponche en contacto connosco. Ofrecémosche a posibilidade de entrar nun Grupo Scout e colaborar coas actividades e campañas que se realizan durante o ano, así como nos campamentos de fins de semana e de verán.',
-
       
+        Contact_tittle2:'Información de Contacto',
+        Contact_site:'Nos podes atopar todos os sábados de 17:00 h a 19:30 nos nosos locais',
+        Contact_tittle:'Non dubides en contactar connosco!',
+        ContactName:'Nome',
+        Contact_lname:'Apelido',
+        Contact_mail:'Correo electrónico',
+        Contact_phone:'Teléfono',
+        Contact_subject:'Asunto',
+        Contact_message:'Mensaxe',
+        Contact_characters:'Máximo 500 caracteres',
+        Contact_submit:'Enviar',
+        Contact_info_mail:'Podes enviarnos unha mensaje a : ',
+
       },
   },
 };
