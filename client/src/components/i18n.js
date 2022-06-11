@@ -133,6 +133,7 @@ const resources = {
   },
   gl: {
     translation: {
+        metodo:'método educativo',
         Inicio:'Inicio',
         juvenil:'xuvenil',
         ASDE:'Federación de Asociacións de Scouts de España (ASDE)',
