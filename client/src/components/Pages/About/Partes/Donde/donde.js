@@ -1,6 +1,5 @@
 import React from 'react';
 import './donde.css';
-import { Wrapper, Status } from "@googlemaps/react-wrapper";
 import { useTranslation } from 'react-i18next';
 import '../../../../i18n.js';
 
