@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/PFC-Scouts/static/css/main.01074710.css",
+    "main.js": "/PFC-Scouts/static/js/main.5899d569.js",
+    "static/js/787.0c78c621.chunk.js": "/PFC-Scouts/static/js/787.0c78c621.chunk.js",
+    "static/media/manada.jpg": "/PFC-Scouts/static/media/manada.1436f4bc3da52ef46e2c.jpg",
+    "static/media/colonia.jpg": "/PFC-Scouts/static/media/colonia.7652356ed59d00e4e2e2.jpg",
+    "static/media/valores.jpg": "/PFC-Scouts/static/media/valores.e3ca0e777aedb977524f.jpg",
+    "static/media/grupos.jpg": "/PFC-Scouts/static/media/grupos.3ccca44c138940dfa387.jpg",
+    "static/media/scouts.jpg": "/PFC-Scouts/static/media/scouts.8605318f02846b2254d4.jpg",
+    "static/media/rain.mp4": "/PFC-Scouts/static/media/rain.d010dafcb73b89fcc4cc.mp4",
+    "static/media/autogestionada.jpg": "/PFC-Scouts/static/media/autogestionada.369d366c3734cfa2e2fe.jpg",
+    "static/media/img_2.jpg": "/PFC-Scouts/static/media/img_2.c76916db8ae1e10c4943.jpg",
+    "static/media/SJyD.jpg": "/PFC-Scouts/static/media/SJyD.ecb17c9b8d83324ba3ef.jpg",
+    "static/media/scouters.jpg": "/PFC-Scouts/static/media/scouters.328d7517a952ff35bfdc.jpg",
+    "static/media/grupo.jpg": "/PFC-Scouts/static/media/grupo.144d52690483d43b441b.jpg",
+    "static/media/clan.jpg": "/PFC-Scouts/static/media/clan.35c1e6607a0c04888d09.jpg",
+    "static/media/esculta.jpg": "/PFC-Scouts/static/media/esculta.2c16a798f15b9d49734c.jpg",
+    "static/media/map_wosm.jpg": "/PFC-Scouts/static/media/map_wosm.d82efc7b48e68c8adad4.jpg",
+    "static/media/lg_es.jpg": "/PFC-Scouts/static/media/lg_es.2fa0a3b7cb348e673efb.jpg",
+    "index.html": "/PFC-Scouts/index.html",
+    "main.01074710.css.map": "/PFC-Scouts/static/css/main.01074710.css.map",
+    "main.5899d569.js.map": "/PFC-Scouts/static/js/main.5899d569.js.map",
+    "787.0c78c621.chunk.js.map": "/PFC-Scouts/static/js/787.0c78c621.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01074710.css",
+    "static/js/main.5899d569.js"
+  ]
+}
