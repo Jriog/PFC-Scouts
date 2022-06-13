@@ -9,7 +9,7 @@ nav{
     color: black;
     font-family: 'Poppins', sans-serif;
     z-index: 100;
-    background: linear-gradient(178deg, rgba(0,138,255,1) 10%, rgba(255,255,255,1) 60%);
+    background: linear-gradient(178deg, #008aff 10%, #ffffff 60%);
   }
 
   .logo{

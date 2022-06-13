@@ -1,4 +1,3 @@
-import { t } from 'i18next';
 import React from 'react';
 import './donde_estan.css';
 import mapa_WOSM from "./map_wosm.jpg";

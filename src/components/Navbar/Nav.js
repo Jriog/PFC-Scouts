@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink} from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import '../i18n.js';
 import './Nav.css';
-import $ from 'jquery';
 import lg_es from "../../assets/lg_es.jpg";
 import lg_gl from "../../assets/lg_gl.png";
 
@@ -16,10 +15,7 @@ function Nav() {
     });
   };
 
-
 return (
-
-
     <nav id="navbar">
       <div className="logo">
         <h4><NavLink to="/" onClick={goToTop}>San Jorge 33</NavLink></h4>

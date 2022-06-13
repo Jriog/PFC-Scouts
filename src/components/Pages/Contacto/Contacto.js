@@ -1,6 +1,5 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import $ from 'jquery';
 import '../../i18n.js';
 import './Contacto.css';
 import emailjs from '@emailjs/browser';
